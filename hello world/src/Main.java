@@ -3,6 +3,7 @@ public class Main {
 
 	/**
 	 * ALT+SHIT+J az argumentumon
+	 * 
 	 * @param args- argumentumok
 	 * 
 	 */
@@ -29,12 +30,31 @@ public class Main {
 		int felszin = 2 * (a * b + b * c + a * c);
 		System.out.println(terfogat);
 		System.out.println(felszin);
-		
-		System.out.println("összeg="+(a+b));
-		System.out.println("különbség="+(a-b));
-		System.out.println("hányados="+(a/b));
+
+		System.out.println("összeg=" + (a + b));
+		System.out.println("különbség=" + (a - b));
+		System.out.println("hányados=" + (a / b));
 		System.out.println("ujbranch ág");
 
+		double szam1 = 2.9;
+		;
+		int szam2 = 4;
+		int szam3 = 6;
+		int szam4 = 8;
+		int szam5 = 10;
+
+		double szamtanikozep = (double) (szam1 + szam2 + szam3 + szam4 + szam5) / 5;
+		System.out.println("számtaniközep= " + szamtanikozep);
+
+		int x = Integer.parseInt(args[3]);
+		int y = Integer.parseInt(args[4]);//
+		int z = Integer.parseInt(args[5]);
+
+		double masodfoku = (-y - Math.sqrt(y * y - 4 * x * z)) / 2 * x;
+		double masodfoku2 = (-y + Math.sqrt(y * y - 4 * x * z)) / 2 * x;
+		
+		System.out.println("masodfoku egyenlet: " + masodfoku);
+		System.out.println("masodfoku egyenlet: " + masodfoku2);
 	}
 
 }
