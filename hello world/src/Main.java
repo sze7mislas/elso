@@ -52,9 +52,45 @@ public class Main {
 
 		double masodfoku = (-y - Math.sqrt(y * y - 4 * x * z)) / 2 * x;
 		double masodfoku2 = (-y + Math.sqrt(y * y - 4 * x * z)) / 2 * x;
-		
+
 		System.out.println("masodfoku egyenlet: " + masodfoku);
 		System.out.println("masodfoku egyenlet: " + masodfoku2);
-	}
 
+		int digit = 3;
+		if (digit % 2 == 0) {
+			System.out.println("páros");
+		} else {
+			System.out.println("páratlan");
+		}
+		int oszthatoE = 24597;
+		int oszto1 = 2;
+		int oszto2 = 3;
+		int oszto3 = 5;
+
+		if (oszthatoE % oszto1 == 0) {
+			System.out.println("A " + oszthatoE + " Kettővel osztható a szám");
+		} else {
+			System.out.println("A " + oszthatoE + " Nem osztható kettővel -maradék nélkül- a szám ");
+		}
+		if (oszthatoE % oszto2 == 0) {
+			System.out.println("A " + oszthatoE + " Hárommal osztható a szám");
+		} else {
+			System.out.println("A " + oszthatoE + " Nem osztható hárommal -maradék nélkül- a szám ");
+		}
+		if (oszthatoE % oszto3 == 0) {
+			System.out.println("A " + oszthatoE + " Öttel osztható a szám");
+		} else {
+			System.out.println("A " + oszthatoE + " Nem osztható öttel -maradék nélkül- a szám ");
+		}
+		int oldalA = 2;
+		int oldalB = 6;
+		int oldalC = 10;
+
+		if (oldalA + oldalB > oldalC && oldalA + oldalC > oldalB && oldalB + oldalC > oldalA) {
+			System.out.println("A háromszög szerkeszthető");
+		} else {
+			System.out.println("Nem szerkeszthető");
+		}
+
+	}
 }
