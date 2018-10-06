@@ -91,6 +91,95 @@ public class Main {
 		} else {
 			System.out.println("Nem szerkeszthető");
 		}
+		int megadottSzam = 444444;
+		if (1 < megadottSzam && megadottSzam < 1000000) {
+			if (1 <= megadottSzam && megadottSzam < 10) {
+
+				System.out.println("Egyjegyű");
+
+			}
+			if (10 <= megadottSzam && megadottSzam < 100) {
+
+				System.out.println("Kétjegyű");
+
+			}
+			if (100 <= megadottSzam && megadottSzam < 1000) {
+
+				System.out.println("Háromjegyű");
+
+			}
+			if (1000 <= megadottSzam && megadottSzam < 10000) {
+
+				System.out.println("Négyjegyű");
+
+			}
+			if (10000 <= megadottSzam && megadottSzam < 100000) {
+
+				System.out.println("Ötjegyű");
+
+			}
+			if (100000 <= megadottSzam && megadottSzam < 1000000) {
+
+				System.out.println("Hatjegyű");
+
+			}
+			int parameter1 = 15;
+			int parameter2 = 65;
+
+			if (parameter1 > parameter2) {
+				System.out.println("Az első szám a nagyobb");
+			}
+			if (parameter1 < parameter2) {
+				System.out.println("A második szám a nagyobb");
+			}
+			if (parameter1 == parameter2) {
+				System.out.println("A két szám egyenlő");
+			}
+			int visszaszamol=5;					
+			if (visszaszamol<=10)
+			{
+				
+				switch (visszaszamol)
+				{
+				case(9):
+					System.out.println("kilenc");
+				
+				case(8):
+					System.out.println("nyolc");
+				
+				case(7):
+					System.out.println("hét");
+				
+				case(6):
+					System.out.println("hat");
+				
+				case(5):
+					System.out.println("öt");
+				
+				case(4):
+					System.out.println("négy");
+				
+				case(3):
+					System.out.println("három");
+				
+				case(2):
+					System.out.println("kettő");
+				
+				case(1):
+					System.out.println("egy");
+				case(0):
+					System.out.println("nulla");
+					
+				
+			}
+			}
+				else
+				{
+					System.out.println("A szám nem megfelelő!! ");
+				}
+				
+				
+			}
 
 	}
 }
