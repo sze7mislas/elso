@@ -33,6 +33,7 @@ public class Main {
 		System.out.println("összeg="+(a+b));
 		System.out.println("különbség="+(a-b));
 		System.out.println("hányados="+(a/b));
+		System.out.println("ujbranch ág");
 
 	}
 
